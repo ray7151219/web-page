@@ -1,0 +1,122 @@
+/* 自定义样式表 (style.css) */
+
+/* 导航栏固定顶部，背景透明 */
+.navbar {
+    background-color: transparent !important;
+    border-bottom: none;
+}
+
+/* 头部大图区域样式 */
+.hero-section {
+    padding: 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* 按钮通用样式 */
+.btn-primary {
+    background-color: white;
+    border-color: white;
+    color: #4a90e2;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+
+.btn-primary:hover {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+/* 实验室区域（白色背景，卡片布局） */
+.lab-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.lab-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.lab-section p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* 双屏学习区域（图片+文字） */
+.dual-screen-section {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.dual-screen-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.dual-screen-text p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* 课程特色区域（图标+文字） */
+.features-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.feature-item {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    
+    /* --- 核心：过渡动画设置 --- */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* --- 核心：鼠标悬停时的状态 --- */
+.feature-item:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.feature-icon {
+    font-size: 2rem;
+    color: #4a90e2;
+    margin-bottom: 15px;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.feature-desc {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* 页脚 */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    color: #555;
+    font-size: 0.9rem;
+}
